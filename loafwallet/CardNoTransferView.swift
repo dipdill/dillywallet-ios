@@ -45,7 +45,7 @@ struct CardNoTransferView: View {
                     
                     VStack {
                         
-                        // Litecoin Card Wallet balance
+                        // Dillycoin Card Wallet balance
                         PreTransferView(walletBalance: viewModel.cardWalletDetails?.availableBalance ?? 0.0,
                                         parentWalletType: .constant(.litecoinCard),
                                         localWalletType: .litecoinCard,

@@ -1,6 +1,6 @@
 //
 //  BRAPIClient+Wallet.swift
-//  litewallet
+//  dillywallet
 //
 //  Created by Kerry Washington on 2/29/20.
 //  Copyright © 2019 Litecoin Foundation. All rights reserved.

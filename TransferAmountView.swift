@@ -109,7 +109,7 @@ struct TransferAmountView: View {
                         
                         if transferringviewModel.shouldStartTransfer {
                             
-                            //Transfer to Litecoin Card
+                            //Transfer to Dillycoin Card
                             if viewModel.walletType == .litewallet {
                                 
                                 viewModel.transferToCard(amount:
@@ -119,7 +119,7 @@ struct TransferAmountView: View {
                                     didStartTransferringView = didSend
                                 }
                                 
-                            //Transfer to Litewallet
+                            //Transfer to Dillywallet
                             } else if viewModel.walletType == .litecoinCard {
                                 
                                 viewModel.transferToLitewallet(amount: viewModel.transferAmount,
@@ -140,7 +140,7 @@ struct TransferAmountView: View {
                 
                 Group {
                     
-                    //Litewallet Balance Amount
+                    //Dillywallet Balance Amount
                     HStack {
                         Text(S.LitecoinCard.Transfer.litewalletBalance + ": ")
                             .font(Font(UIFont.barlowSemiBold(size: 18.0)))
